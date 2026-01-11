@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Press+Start+2P&display=swap');
+
+:root {
+  /* Game Boy Color "Atomic Purple" Palette */
+  --bg-color: #1a1025;
+  /* Deep Translucent Purple - Background */
+  --primary-color: #d633b8;
+  /* Neon/Magenta - Accents */
+  --text-color: #e0d5e6;
+  /* Lilac/White - Main Text */
+  --text-white: #ffffff;
+  /* Pure White for headers */
+  --gray: #9c8aade0;
+  /* Muted Purple gray */
+  --border-color: #5c3a75;
+  /* Lighter purple for borders */
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Fira Code', monospace;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  font-family: 'Fira Code', monospace;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Retro Headers */
+.section-title {
+  font-size: 2rem;
+  color: var(--text-white);
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  font-family: 'Press Start 2P', cursive;
+  letter-spacing: -1px;
+  text-shadow: 2px 2px 0px #5c3a75;
+  /* 3D Text Effect */
+}
+
+.section-title::before {
+  content: '>';
+  color: var(--primary-color);
+  margin-right: 0.5rem;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.section-title::after {
+  content: '';
+  flex: 1;
+  height: 4px;
+  background-color: var(--border-color);
+  margin-left: 1rem;
+  max-width: 300px;
+  box-shadow: 0px 0px 10px var(--primary-color);
+  /* Neon Glow */
+}
+
+/* Button Styling - Cyber Retro */
+.btn {
+  border: 2px solid var(--primary-color);
+  background: transparent;
+  color: var(--text-white);
+  padding: 0.8rem 1.5rem;
+  transition: all 0.2s ease;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.8rem;
+  /* Smaller font for pixel fonts */
+  text-transform: uppercase;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: var(--primary-color);
+  transition: all 0.3s ease;
+  z-index: -1;
+}
+
+.btn:hover::before {
+  left: 0;
+}
+
+.btn:hover {
+  box-shadow: 0 0 15px var(--primary-color);
+}
+
+.accent {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 5px;
+}

@@ -1,0 +1,17 @@
+[
+    {
+        "platform": "GitHub",
+        "link": "https://github.com/Ananthu-sreekumar08",
+        "icon": "FaGithub"
+    },
+    {
+        "platform": "Discord",
+        "link": "#",
+        "icon": "FaDiscord"
+    },
+    {
+        "platform": "Email",
+        "link": "https://mail.google.com/mail/?view=cm&fs=1&to=ananthuceal@gmail.com",
+        "icon": "FaEnvelope"
+    }
+]

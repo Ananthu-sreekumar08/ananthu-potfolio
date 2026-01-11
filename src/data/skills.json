@@ -1,0 +1,29 @@
+{
+    "Languages": [
+        "JavaScript",
+        "C++",
+        "Python",
+        "C",
+        ""
+    ],
+    "Databases": [
+        "SQLite",
+        "PostgreSQL",
+        "Mongo"
+    ],
+    "Tools": [
+        "VSCode",
+        "Figma",
+        "Git"
+    ],
+    "Frameworks": [
+        "React",
+        "Express"
+    ],
+    "Other": [
+        "HTML",
+        "CSS",
+        "SCSS",
+        "EJS"
+    ]
+}
