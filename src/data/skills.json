@@ -4,7 +4,7 @@
         "C++",
         "Python",
         "C",
-        ""
+        "Dart"
     ],
     "Databases": [
         "SQLite",
@@ -14,11 +14,13 @@
     "Tools": [
         "VSCode",
         "Figma",
-        "Git"
+        "Git",
+        "Unity"
     ],
     "Frameworks": [
         "React",
-        "Express"
+        "Express",
+        "Flutter"
     ],
     "Other": [
         "HTML",

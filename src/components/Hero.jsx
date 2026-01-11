@@ -6,10 +6,10 @@ const Hero = () => {
     <section className="hero">
       <div className="hero-content">
         <h1>
-          Ananthu is a <span className="accent">forntend engineer</span> and <span className="accent">full stack developer</span>
+          Hi, I'm <span className="accent">Ananthu</span>.I am a <span className="accent">Full Stack Engineer</span> and <span className="accent">Creative Developer</span>
         </h1>
         <p className="hero-subtitle">
-        crafts responsive websites where technologies meet creativity
+          crafts responsive websites where technologies meet creativity
         </p>
         <Link to="/contact" className="btn">Contact me !!</Link>
       </div>

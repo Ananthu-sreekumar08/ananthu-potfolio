@@ -1,19 +1,6 @@
 [
   {
     "id": 1,
-    "title": "cooking something",
-    "description": "",
-    "techs": [
-      ""
-    ],
-    "links": {
-      "live": "#",
-      "code": "#"
-    },
-    "image": "https://via.placeholder.com/300"
-  },
-  {
-    "id": 2,
     "title": "wanderwalls",
     "description": "coming soon.",
     "techs": [
@@ -29,11 +16,24 @@
     "image": "https://via.placeholder.com/300"
   },
   {
-    "id": 3,
-    "title": "",
-    "description": ".",
+    "id": 2,
+    "title": "AI Oncology System",
+    "description": "A Deep Learning system designed to detect lung cancer nodules from Low-Dose CT scans.",
     "techs": [
-      ""
+      "Python", "TensorFlow", "3D U-Net", "Vision Transformers (ViT)", "Keras"
+    ],
+    "links": {
+      "live": "#",
+      "code": "#"
+    },
+    "image": "https://via.placeholder.com/300"
+  },
+  {
+    "id": 3,
+    "title": "AR Treasure Hunt",
+    "description": "An immersive augmented reality game that bridges the physical and digital worlds. Utilizes Vuforia's image target technology to overlay 3D clues and puzzles onto real-world objects.",
+    "techs": [
+      "Unity", "C#", "Vuforia Engine"
     ],
     "links": {
       "live": "#",

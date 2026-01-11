@@ -2,7 +2,7 @@
   "name": "porfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://Ananthu-sreekumar08.github.io/ananthu-potfolio/",
+  "homepage": "https://Ananthu-sreekumar08.github.io/ananthu-portfolio/",
   "type": "module",
   "scripts": {
     "dev": "vite",
