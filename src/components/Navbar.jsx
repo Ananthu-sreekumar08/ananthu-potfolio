@@ -37,7 +37,6 @@ const Navbar = () => {
               <span className="accent">#</span>{link.name}
             </Link>
           ))}
-          {/* Resume Link - Specialized */}
           <a
             href={resume}
             target="_blank"

@@ -1,19 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Press+Start+2P&display=swap');
 
 :root {
-  /* Game Boy Color "Atomic Purple" Palette */
   --bg-color: #1a1025;
-  /* Deep Translucent Purple - Background */
   --primary-color: #d633b8;
-  /* Neon/Magenta - Accents */
   --text-color: #e0d5e6;
-  /* Lilac/White - Main Text */
   --text-white: #ffffff;
-  /* Pure White for headers */
   --gray: #9c8aade0;
-  /* Muted Purple gray */
   --border-color: #5c3a75;
-  /* Lighter purple for borders */
 }
 
 * {
@@ -50,7 +43,6 @@ button {
   padding: 0 1rem;
 }
 
-/* Retro Headers */
 .section-title {
   font-size: 2rem;
   color: var(--text-white);
@@ -92,10 +84,8 @@ button {
   margin-left: 1rem;
   max-width: 300px;
   box-shadow: 0px 0px 10px var(--primary-color);
-  /* Neon Glow */
 }
 
-/* Button Styling - Cyber Retro */
 .btn {
   border: 2px solid var(--primary-color);
   background: transparent;
@@ -104,7 +94,6 @@ button {
   transition: all 0.2s ease;
   font-family: 'Press Start 2P', cursive;
   font-size: 0.8rem;
-  /* Smaller font for pixel fonts */
   text-transform: uppercase;
   position: relative;
   overflow: hidden;
@@ -135,7 +124,6 @@ button {
   font-weight: bold;
 }
 
-/* Scrollbar */
 ::-webkit-scrollbar {
   width: 10px;
 }
