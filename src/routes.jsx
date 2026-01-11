@@ -5,11 +5,13 @@ import ProjectsPage from './pages/ProjectsPage';
 import SkillsPage from './pages/SkillsPage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
+import ErrorPage from './pages/ErrorPage';
 
 export const router = createBrowserRouter([
     {
         path: "/",
         element: <Layout />,
+        errorElement: <ErrorPage />,
         children: [
             {
                 path: "/",
@@ -33,4 +35,6 @@ export const router = createBrowserRouter([
             },
         ],
     },
-]);
+], {
+    basename: "/ananthu-potfolio"
+});
