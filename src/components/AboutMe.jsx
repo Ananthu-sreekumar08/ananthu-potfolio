@@ -10,7 +10,7 @@ const AboutMe = ({ isFullPage = false }) => {
                     <p>Hello, i’m Ananthu Sreekumar!</p>
                     <br />
                     <p>
-                        I’m a self-taught  developer based in India. I can develop responsive websites from scratch and raise them into modern user-friendly web experiences.
+                        I’m a self-taught front-end developer based in India. I can develop responsive websites from scratch and raise them into modern user-friendly web experiences.
                     </p>
                     <br />
                     <p>
